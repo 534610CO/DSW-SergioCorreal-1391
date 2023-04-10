@@ -3,7 +3,7 @@
 	grid-template-areas:
 		'A A A A'
 		'B B B B'
-		'C D D D'
+		'D D D D'
 		'E E E E';
 
 }
@@ -17,11 +17,6 @@ header {
 nav {
 	grid-area: B;
 
-}
-
-aside {
-	grid-area: C;
-	background-color: #5584AC;
 }
 
 main {
@@ -108,3 +103,50 @@ footer {
 	border-radius: 30%;
 
 }
+
+#subtema {
+	background-color: #5584AC;
+	display:none;
+	position: absolute;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#subtemalista {
+	margin: 0;
+	padding: 0;
+	
+}
+
+#linktema {
+	display: block;
+	padding: 1rem;
+	color: #fff;
+	text-decoration: none;
+}
+
+#linktema:hover {
+	background-color: #555;
+}
+
+
+#lista1 #listanav:hover > #subtema {
+	display: block;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
