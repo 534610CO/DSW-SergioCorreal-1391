@@ -21,13 +21,13 @@ nav {
 
 main {
 	grid-area: D;
-	background-color: #F6F2D4;
+	background-color: #DDDDDD;
 
 }
 
 footer {
 	grid-area: E;
-	background-color: #95D1CC;
+	background-color: #5584AC;
 }
 
 
@@ -98,9 +98,10 @@ footer {
 }
 
 #imagenPerfil{
+	margin: 30px;
 	width: 300px; 
-	height: 200px;
-	border-radius: 30%;
+	height: 300px;
+	border-radius: 50%;
 
 }
 
