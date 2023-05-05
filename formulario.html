@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Grid</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="contenedor">
+         
+    <header id="inicio">
+		<h1 id="encabezado"><center>Formulario Javascript</center></h1>
+	</header>
+
+	<nav id="navegacion">
+		<ul id="lista1">
+			<li id="listanav"><a id="linknav" href="index.html">Inicio</a></li>
+			<li id="listanav"><a id="linknav" href="tema1.html">Selectores CSS</a></li>
+			<li id="listanav"><a id="linknav" href="tema2.html">Box model</a></li>
+			<li id="listanav"><a id="linknav" href="tema3.html">Media queries</a></li>
+			<li id="listanav"><a id="linknav" href="tema4.html">Flex Box</a></li>
+			<li id="listanav"><a id="linknav" href="tema5.html">CSS Grid.</a>
+				<ul id="subtema">
+					<li id="subtemalista"><a id="linktema" href="audio5.html">Audio</a></li>
+					<li id="subtemalista"><a id="linktema" href="tema5.html">Tema</a></li>	
+					<li id="subtemalista"><a id="linktema" href="nosotros.html">Acerca de Mi</a></li>
+					<li id="subtemalista"><a id="linktema" href="formulario.html">Formulario</a></li>
+					
+				</ul>			
+			</li>
+		</ul>
+        
+	</nav>
+
+	<main>
+		<h1 id="resultado">Responda las siguientes preguntas</h1>
+        <div>
+            <form name="formulario">
+            <h3>1. la etiqueta que se usa para colocar un enlace a una página web es</h3>
+
+            <input type="radio" name="r1" value="a"> a.link <br>
+            <input type="radio" name="r1" value="b"> b.src <br>
+            <input type="radio" name="r1" value="c"> c.a <br>
+
+            <h3>2. lapropiedad con la que se define le comportamiento de un contenedor es: </h3>
+
+            <input type="radio" name="r2" value="a"> a.link <br>
+            <input type="radio" name="r2" value="b"> b.src <br>
+            <input type="radio" name="r2" value="c"> c.a <br>
+
+            <h3>3. la etiqueta que se usa para colocar un enlace a una página web es</h3>
+
+            <input type="radio" name="r3" value="a"> a.link <br>
+            <input type="radio" name="r3" value="b"> b.src <br>
+            <input type="radio" name="r3" value="c"> c.a <br>
+
+            <h3>4. lapropiedad con la que se define le comportamiento de un contenedor es: </h3>
+
+            <input type="radio" name="r4" value="a"> a.link <br>
+            <input type="radio" name="r4" value="b"> b.src <br>
+            <input type="radio" name="r4" value="c"> c.a <br>
+
+            <h3>5. lapropiedad con la que se define le comportamiento de un contenedor es: </h3>
+
+            <input type="radio" name="r5" value="a"> a.link <br>
+            <input type="radio" name="r5" value="b"> b.src <br>
+            <input type="radio" name="r5" value="c"> c.a <br>
+
+            <input type="button" value="Enviar" onclick="procesarRespuestas()">
+
+            </form>
+            
+        </div>
+
+        <script src="javascript.js"></script>
+
+	</main>
+	<footer>
+		<p>Copyright © 2023 UNAD</p>
+        <button onclick="window.location.href='#inicio'">Volver al inicio</button>
+	</footer>
+</body>
+</html>
